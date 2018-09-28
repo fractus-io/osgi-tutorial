@@ -1,21 +1,40 @@
 ### Introduction to OSGi Framework
 
+OSGi 
+A Service Platform For Java
+
+---
+
+
 Topics
 
-* Spring History
+* OSGi History
 * What is Spring
 * Why Spring 
 * Spring architecture
 
 ---
 
-### Spring History
+### History
 
-* Started 2002/2003 by Rod Johonson and Juergen Holler
-* Started as a framework developed around Rod Johnson&#39;s book [Expert One-on-One J2EE Design and Development](https://www.amazon.com/Expert-One-One-Design-Development/dp/0764543857)
-* Spring 1.0 Released March 2004
-* ...
-* Spring 4.2.0 Released July 2015
 
+* OSGi Alliance (formerly known as Open Services Gateway Initiative) was founded in 1999 as an open standards organization.
+
+* OSGi specification is developed in an open process and is public available and is  free of charge under the OSGi specification license.
+
+* OSGi defines a members only compliance program (5 licensed OSGi implementations are available)
+
+
+---
+
+### History ...
+
+Members of OSGi:
+ * Siemens AG
+ * Oracle
+ * IBM Corporation
+ * SAP
+ * Sun Microsystems
+ etc.
 
 ---
