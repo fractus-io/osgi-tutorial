@@ -1,10 +1,10 @@
-### Introduction to OSGi Framework
+## Introduction to OSGi Framework
 
  OSGi  
  
 * Open Service Gateway Intiative
   
-A Service Platform For Java
+Dynamic Module System For Java
 
 ---
 
@@ -12,6 +12,7 @@ Topics
 
 * OSGi History
 * What is OSGi
+* Why OSGi
 
 ---
 
@@ -55,3 +56,43 @@ Releases:
  * OSGi Release 7 was first released in April 2018
 
 ---
+
+### What is OSGi
+
+Set of
+ * specifications
+ * implementations for each specifications
+ * compliance tests for each specifications
+ 
+ together defines a Dynamic Module System for Java
+
+---
+
+### What is OSGi
+
+OSGI provides 
+ * vendor independent
+ * standards-based 
+ 
+ approach to modularizing Java software applications and infrastructure
+
+---
+
+### What is OSGi
+
+OSGI is used in
+ * open source
+ * commercial products and solutions 
+  
+---
+
+### What is OSGi
+
+OSGI has been adopted for solutions in:
+ * IoT
+ * Healthcare
+ * Automotive
+ * Energy Management
+ * Telecommunications
+ * Enterprise Software Platforms
+ 
