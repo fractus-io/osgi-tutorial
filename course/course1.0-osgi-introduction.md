@@ -64,7 +64,7 @@ Set of
  * implementations for each specifications
  * compliance tests for each specifications
  
- together defines a Dynamic Module System for Java
+ that together defines a Dynamic Module System for Java
 
 ---
 
@@ -95,4 +95,11 @@ OSGI has been adopted for solutions in:
  * Energy Management
  * Telecommunications
  * Enterprise Software Platforms
- 
+
+---
+
+### Why OSGi
+
+* OSGI provides modular architecture
+* OSGI is mature, field proven, component system that works in a large number of environments
+* OSGi component system is used to build any type of application ranging from the simple to highly complex applications 
