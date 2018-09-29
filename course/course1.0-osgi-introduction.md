@@ -1,29 +1,24 @@
 ### Introduction to OSGi Framework
 
-OSGi 
+* OSGi  
+
 A Service Platform For Java
 
 ---
 
-
 Topics
 
 * OSGi History
-* What is Spring
-* Why Spring 
-* Spring architecture
 
 ---
 
 ### History
-
 
 * OSGi Alliance (formerly known as Open Services Gateway Initiative) was founded in 1999 as an open standards organization.
 
 * OSGi specification is developed in an open process and is public available and is  free of charge under the OSGi specification license.
 
 * OSGi defines a members only compliance program (5 licensed OSGi implementations are available)
-
 
 ---
 
