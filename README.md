@@ -3,7 +3,6 @@
 
 # OSGI tutorial
 
-...
 
 Hello World shows how to produce/consume OSGi services.
 
