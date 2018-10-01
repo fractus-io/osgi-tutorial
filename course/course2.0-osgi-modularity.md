@@ -5,7 +5,7 @@
 
 ---
 
-Topics
+### Topics
 
 * Java Modularity
 * What is OSGi
@@ -15,7 +15,7 @@ Topics
 
 ---
 
-### Java Modularity:
+### Java Modularity
 
 * Provides encapsulation through access modifiers:
   * public, protected, private
@@ -24,21 +24,28 @@ Topics
 * Classes or methods from one package to be available to another they
 must be declared as <b>public</b>
 
+### Java Modularity
+
 *  Problematic when package A needs code from
 package C, now packages B, D, E and F can see
 that code.
-* OSGi provides package level encapsulation
+
+* OSGi introduces package level encapsulation
 
 ---
 
-Modularity
+### Modularity
 
-Modularity forces:
+Forces:
+
 * Separation of concerns
 * Design simplicity
 * Code reuse
 * Easy maintenanace and repair
 
+---
+
+### Modularity
 
 What is a Module ?
 
@@ -50,6 +57,10 @@ What is a Module ?
   * module should know nothing about implementation of the modules its depends on
   * it must rely on their public interface
 
+---
+
+### Modularity
+
 What is a Module ?
 
 * have private space 
@@ -57,26 +68,33 @@ What is a Module ?
 * limits their visibilty and exposure
 * from geometric to linear complexity
 
+---
 
-JAR hell
+### JAR hell
 
 * JAR files are not modules
 * JAR does not exists at runtime
   * when searching for class, JVM perfoms linear scan 
   * very inefficients and unreliable process
+  
+---
+
+### JAR hell
+  
 * JAR contain no explicit declaration about dependencies
 * JAR is not versioned
 * No information hiding between JARs 
 
 So JAR files are not the modules
 
+---
 
-OSGi to rescue
+### OSGi to rescue
 
-• OSGi offers an elegant solution to handling
+* OSGi offers an elegant solution to handling
 dependencies by requiring dependency
-declarations within units of modularity. 
+declarations within units of modularity
 
-• OSGi provides an isolated module cycling/
-updating capability in order to increase availability. 
+* OSGi provides an isolated module cycling/
+updating capability in order to increase availability
 
