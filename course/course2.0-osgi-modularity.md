@@ -77,7 +77,9 @@ What is a Module ?
 
 ### Modularity
 
-![Image](https://github.com/fractus-io/osgi-tutorial/blob/master/course/assets/image/modularity.jpg)
+
+---?image=assets/image/modularity.jpg&size=auto 90%&color=white
+@title[Modularity]
 
 ---
 ### JAR Hell
