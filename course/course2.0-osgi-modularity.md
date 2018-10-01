@@ -8,10 +8,9 @@
 ### Topics
 
 * Java Modularity
-* What is OSGi
-* Why OSGi
-* OSGi Specificatiosn
-* OSGi Implementations
+* Modularity
+* JAR Hell
+* OSGi to Rescue
 
 ---
 
@@ -23,6 +22,8 @@
 
 * Classes or methods from one package to be available to another they
 must be declared as <b>public</b>
+
+---
 
 ### Java Modularity
 
@@ -53,6 +54,11 @@ What is a Module ?
  * from outside module must appear as logical whole
 * Highly cohesive
   *  A module should have just one, well-defined purpose 
+
+---
+
+### Modularity
+
 * Loosly coupled
   * module should know nothing about implementation of the modules its depends on
   * it must rely on their public interface
@@ -63,14 +69,13 @@ What is a Module ?
 
 What is a Module ?
 
-* have private space 
-* share public space
-* limits their visibilty and exposure
-* from geometric to linear complexity
+* Have private space 
+* Share public space
+* Limits their visibilty and exposure
 
 ---
 
-### JAR hell
+### JAR Hell
 
 * JAR files are not modules
 * JAR does not exists at runtime
@@ -79,17 +84,21 @@ What is a Module ?
   
 ---
 
-### JAR hell
+### JAR Hell
   
 * JAR contain no explicit declaration about dependencies
 * JAR is not versioned
 * No information hiding between JARs 
+  
+---
+
+### JAR Hell
 
 So JAR files are not the modules
 
 ---
 
-### OSGi to rescue
+### OSGi to Rescue
 
 * OSGi offers an elegant solution to handling
 dependencies by requiring dependency
@@ -98,3 +107,14 @@ declarations within units of modularity
 * OSGi provides an isolated module cycling/
 updating capability in order to increase availability
 
+---
+
+### OSGi to Rescue
+
+* OSGi kind of Java Operating System
+* Lego principle:
+  * Reusabilty
+  * Portability
+  * Application isolation
+  * Life-cycle management
+  
