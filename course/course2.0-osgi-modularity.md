@@ -75,6 +75,11 @@ What is a Module ?
 
 ---
 
+### Modularity
+
+![Image](asset/image/modularity.jpg)
+
+---
 ### JAR Hell
 
 * JAR files are not modules
