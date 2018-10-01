@@ -71,12 +71,7 @@ What is a Module ?
 
 * Have private space 
 * Share public space
-* Limits their visibilty and exposure
-
----
-
-### Modularity
-
+* Limits their visibility and exposure
 
 ---?image=course/assets/image/modularity.jpg&size=auto 50%
 @title[Modularity]
