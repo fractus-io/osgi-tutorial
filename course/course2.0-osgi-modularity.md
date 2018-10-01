@@ -78,7 +78,7 @@ What is a Module ?
 ### Modularity
 
 
----?image=course/assets/image/modularity.jpg&size=auto 90%
+---?image=course/assets/image/modularity.jpg&size=auto 50%
 @title[Modularity]
 
 ---
