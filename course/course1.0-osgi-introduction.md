@@ -13,6 +13,8 @@ Topics
 * OSGi History
 * What is OSGi
 * Why OSGi
+* OSGi Specificatiosn
+* OSGi Implementations
 
 ---
 
@@ -64,7 +66,7 @@ Set of
  * implementations for each specifications
  * compliance tests for each specifications
  
- that together defines a Dynamic Module System for Java
+that together defines a Dynamic Module System for Java
 
 ---
 
@@ -103,3 +105,32 @@ OSGI has been adopted for solutions in:
 * OSGI provides modular architecture
 * OSGI is mature, field proven, component system that works in a large number of environments
 * OSGi component system is used to build any type of application ranging from the simple to highly complex applications 
+
+---
+
+### OSGi Specificatiosn
+
+Types:
+ * <b>Core</b>
+ * Enterprise
+ * Residental
+ * <b>Compedium</b>
+ * Mobile
+
+---
+
+### OSGi Implementations
+
+* The OSGi specification process requires a reference implementation for each specification
+* This has to be available under an open source license
+* There have also always been commercial implementations as well
+* Currently, there are four open source implementations of the framework
+
+---
+
+### OSGi Implementations
+
+* Apache Felix
+* Eclipse Concierge
+* <b>Eclipse Equinox</b>
+* Knoperfish
