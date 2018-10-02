@@ -121,16 +121,8 @@ Export-Package: io.fractus.osgi.tutorial.helloworld.consumer
 
 * Bundle has lifecycle
 
----?image=course/assets/image/bundle-lifecycle.png.png&size=auto 50%
+---?image=course/assets/image/bundle-lifecycle.png&size=auto 50%
 @title[Bundle Lifecycle]
-
-* A bundle further contains a manifest file (MANIFEST.MF) that describes:
-  * what is „on board“ of a bundle
-  * its dependencies (Import and export packages)
-  * the bundle-version
-  * the bundle-name (symbolic as java package and logical name)
-  * a short description
-  * its Activator (a java class that implements the lifecycle behavior of this bundle)
 
 ---
 
