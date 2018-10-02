@@ -1,8 +1,7 @@
 
-## Architcture
-
+## OSGi Architcture
  
-* Broadly speaking, modularity is the degree to which a system's components may be separated and recombined, often with the benefit of flexibility and variety in use
+ OSGi Architecture
 
 ---
 
@@ -54,7 +53,7 @@
 
 * OSGi has a layered model that is depicted in the following figure.
 
----?image=course/assets/image/osgi-layers.jpg&size=auto 50%
+---?image=course/assets/image/osgi-layers.png&size=auto 50%
 @title[Layers]
 
 ---
