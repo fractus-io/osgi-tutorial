@@ -7,10 +7,10 @@
 
 ### Topics
 
-* Java Modularity
-* Modularity
-* JAR Hell
-* OSGi to Rescue
+* OSGi Architecture
+* OSGi Service
+* Layers
+* Bundles
 
 ---
 
@@ -68,7 +68,7 @@
 
 ### Layers 
 
-* OSGi has a layered model that is depicted in the following figure.
+* OSGi has a layered model that is depicted in the following figure
 
 ---?image=course/assets/image/osgi-layers.png&size=auto 50%
 @title[Layers]
@@ -103,7 +103,6 @@ What is a Bundle ?
 * Jar files with a manifest header
 * Can contain resources, java packages and class files
 
-
 ---
 
 ### Bundles
@@ -112,6 +111,13 @@ What is a Bundle ?
   * what is „on board“ of a bundle
   * its dependencies (Import and export packages)
   * the bundle-version
+  
+---
+
+### Bundles
+
+* A bundle further contains a manifest file (MANIFEST.MF) that describes:
+  ...
   * the bundle-name (symbolic as java package and logical name)
   * a short description
   * its Activator (a java class that implements the lifecycle behavior of this bundle)
@@ -126,6 +132,13 @@ Bundle-ManifestVersion: 2
 Bundle-Name: helloworld-consumer
 Bundle-SymbolicName: helloworld-consumer
 Bundle-Version: 1.0.0.qualifier
+
+---
+
+### Bundles
+
+MANIFEST.MF:
+
 Bundle-Activator: io.fractus.osgi.tutorial.helloworld.consumer.Activator
 Eclipse-LazyStart: true
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
@@ -133,6 +146,7 @@ Import-Package: org.osgi.framework;version="1.3.0",io.fractus.osgi.tutorial.hell
 Export-Package: io.fractus.osgi.tutorial.helloworld.consumer
 
 ---
+
 
 ### Bundles
 
@@ -145,11 +159,14 @@ Export-Package: io.fractus.osgi.tutorial.helloworld.consumer
 
 ### Bundles
 
+* Installed   Bundle successfuly installed
+* Resolved    Bundle dependencies resolved
+* Uninstalled Bundle successfuly uninstalled
 
-State       Description
-Installed   Bundle successfuly installed
-Resolved    Bundle dependencies resolved
-Uninstalled Bundle successfuly uninstalled
-Starting    Bundle can be started 
-Active      Bundle is active  
-Stopping    Bundle is being stopped 
+---
+
+### Bundles
+
+* Starting    Bundle can be started 
+* Active      Bundle is active  
+* Stopping    Bundle is being stopped 
