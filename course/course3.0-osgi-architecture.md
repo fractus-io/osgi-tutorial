@@ -127,11 +127,11 @@ What is a Bundle ?
 ### Bundles
 
 MANIFEST.MF:
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: helloworld-consumer
-Bundle-SymbolicName: helloworld-consumer
-Bundle-Version: 1.0.0.qualifier
+Manifest-Version: 1.0  
+Bundle-ManifestVersion: 2  
+Bundle-Name: helloworld-consumer  
+Bundle-SymbolicName: helloworld-consumer  
+Bundle-Version: 1.0.0.qualifier  
 
 ---
 
@@ -139,11 +139,11 @@ Bundle-Version: 1.0.0.qualifier
 
 MANIFEST.MF:
 
-Bundle-Activator: io.fractus.osgi.tutorial.helloworld.consumer.Activator
-Eclipse-LazyStart: true
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Import-Package: org.osgi.framework;version="1.3.0",io.fractus.osgi.tutorial.helloworld.producer
-Export-Package: io.fractus.osgi.tutorial.helloworld.consumer
+Bundle-Activator: io.fractus.osgi.tutorial.helloworld.consumer.Activator  
+Eclipse-LazyStart: true  
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6  
+Import-Package: org.osgi.framework;version="1.3.0",io.fractus.osgi.tutorial.helloworld.producer  
+Export-Package: io.fractus.osgi.tutorial.helloworld.consumer  
 
 ---
 
@@ -159,14 +159,14 @@ Export-Package: io.fractus.osgi.tutorial.helloworld.consumer
 
 ### Bundles
 
-* Installed   Bundle successfuly installed
-* Resolved    Bundle dependencies resolved
-* Uninstalled Bundle successfuly uninstalled
+* Installed   -> Bundle successfuly installed
+* Resolved    -> Bundle dependencies resolved
+* Uninstalled -> Bundle successfuly uninstalled
 
 ---
 
 ### Bundles
 
-* Starting    Bundle can be started 
-* Active      Bundle is active  
-* Stopping    Bundle is being stopped 
+* Starting    -> Bundle can be started 
+* Active      -> Bundle is active  
+* Stopping    -> Bundle is being stopped 
