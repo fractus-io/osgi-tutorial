@@ -49,6 +49,23 @@
    
 ---
 
+### OSGi Service
+
+* You can register and consume existing services via the OSGi runtime
+* OSGi provides a central <b>Service Registry</b> for this purpose
+* Service can be dynamically started and stopped
+* During the declaration of a service it is possible to specify key / values which can be used to configure the service
+   
+---
+
+
+### OSGi Service
+
+---?image=course/assets/image/service-registry.png&size=auto 50%
+@title[Layers]
+   
+---
+
 ### Layers 
 
 * OSGi has a layered model that is depicted in the following figure.
