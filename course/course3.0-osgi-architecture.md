@@ -77,81 +77,70 @@
 * Execution Environment 
  * Defines what methods and classes are available in a specific platform
  
+---
+
+### Bundles
+
+What is a Bundle ?
+
+* Jar files with a manifest header
+* Can contain resources, java packages and class files
 
 
 ---
 
-### Modularity
+### Bundles
 
-What is a Module ?
-
-* Self-contained
- * from outside module must appear as logical whole
-* Highly cohesive
-  *  A module should have just one, well-defined purpose 
-
----
-
-### Modularity
-
-* Loosly coupled
-  * module should know nothing about implementation of the modules its depends on
-  * it must rely on their public interface
-
----
-
-### Modularity
-
-What is a Module ?
-
-* Have private space 
-* Share public space
-* Limits their visibility and exposure
-
----?image=course/assets/image/modularity.jpg&size=auto 50%
-@title[Modularity]
-
----
-### JAR Hell
-
-* JAR files are not modules
-* JAR does not exists at runtime
-  * when searching for class, JVM perfoms linear scan 
-  * very inefficients and unreliable process
+* A bundle further contains a manifest file (MANIFEST.MF) that describes:
+  * what is „on board“ of a bundle
+  * its dependencies (Import and export packages)
+  * the bundle-version
+  * the bundle-name (symbolic as java package and logical name)
+  * a short description
+  * its Activator (a java class that implements the lifecycle behavior of this bundle)
   
 ---
 
-### JAR Hell
-  
-* JAR contain no explicit declaration about dependencies
-* JAR is not versioned
-* No information hiding between JARs 
-  
----
+### Bundles
 
-### JAR Hell
-
-So JAR files are not the modules
-
----
-
-### OSGi to Rescue
-
-* OSGi offers an elegant solution to handling
-dependencies by requiring dependency
-declarations within units of modularity
-
-* OSGi provides an isolated module cycling/
-updating capability in order to increase availability
+MANIFEST.MF:
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: helloworld-consumer
+Bundle-SymbolicName: helloworld-consumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: io.fractus.osgi.tutorial.helloworld.consumer.Activator
+Eclipse-LazyStart: true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.osgi.framework;version="1.3.0",io.fractus.osgi.tutorial.helloworld.producer
+Export-Package: io.fractus.osgi.tutorial.helloworld.consumer
 
 ---
 
-### OSGi to Rescue
+### Bundles
 
-* OSGi kind of Java Operating System
-* Lego principle:
-  * Reusabilty
-  * Portability
-  * Application isolation
-  * Life-cycle management
-  
+* Bundle has lifecycle
+
+---?image=course/assets/image/bundle-lifecycle.png.png&size=auto 50%
+@title[Bundle Lifecycle]
+
+* A bundle further contains a manifest file (MANIFEST.MF) that describes:
+  * what is „on board“ of a bundle
+  * its dependencies (Import and export packages)
+  * the bundle-version
+  * the bundle-name (symbolic as java package and logical name)
+  * a short description
+  * its Activator (a java class that implements the lifecycle behavior of this bundle)
+
+---
+
+### Bundles
+
+
+State       Description
+Installed   Bundle successfuly installed
+Resolved    Bundle dependencies resolved
+Uninstalled Bundle successfuly uninstalled
+Starting    Bundle can be started 
+Active      Bundle is active  
+Stopping    Bundle is being stopped 
