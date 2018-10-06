@@ -4,6 +4,7 @@
 .gradle
 bin/
 tmp/
+framework/configuration
 *.tmp
 *.bak
 *.swp
