@@ -36,7 +36,7 @@ $ osgi> ss
 
 Install producer:
 ```
-$ osgi> install file:///.../helloworld-producer/target/helloworld-producer-1.0.0-SNAPSHOT.jar
+$ osgi> install file:///.../helloworld-producer/target/helloworld-producer-1.0.jar
 ```
 
 Equinox displays its bundle ID; for example:
@@ -46,7 +46,7 @@ $ osgi> Bundle id is 2
 
 Install consumer:
 ```
-$ osgi> install file:///.../helloworld-consumer/target/helloworld-consumer-1.0.0-SNAPSHOT.jar
+$ osgi> install file:///.../helloworld-consumer/target/helloworld-consumer-1.0.jar
 ```
 
 Equinox displays its bundle ID; for example:
