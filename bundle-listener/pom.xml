@@ -3,12 +3,12 @@
   
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.fractus.osgi.tutorial</groupId>
-  <artifactId>service-listener</artifactId>
+  <artifactId>bundle-listener</artifactId>
   
   <packaging>bundle</packaging>
   
   <version>1.0</version>
-  <name>service-listener</name>
+  <name>bundle-listener</name>
   <url>http://maven.apache.org</url>
   
    <properties>

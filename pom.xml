@@ -12,6 +12,7 @@
         <module>helloworld-producer</module>		
         <module>helloworld-consumer</module> 
 		<module>service-listener</module>
+		<module>bundle-listener</module>
 	</modules>
 
 </project>
