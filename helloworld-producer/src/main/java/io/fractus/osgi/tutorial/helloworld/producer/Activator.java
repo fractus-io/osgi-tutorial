@@ -7,15 +7,11 @@ package io.fractus.osgi.tutorial.helloworld.producer;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
-import org.osgi.framework.ServiceEvent;
-import org.osgi.framework.ServiceListener;
 
-public class Activator implements BundleActivator, ServiceListener {
+public class Activator implements BundleActivator {
 
 	public void start(BundleContext bundleContex) throws Exception {
-		
-		bundleContex.addServiceListener(this);
-		
+				
 		System.out.println("Activator " + Activator.class.getName() + " starting");
 		
 		IHelloWorld helloWorld = new HelloWorldService();
@@ -35,11 +31,5 @@ public class Activator implements BundleActivator, ServiceListener {
 
 	}
 
-
-
-	public void serviceChanged(ServiceEvent serviceEvent) {
-		
-		System.out.println("serviceEvent: " + serviceEvent);
-	}	
 
 }

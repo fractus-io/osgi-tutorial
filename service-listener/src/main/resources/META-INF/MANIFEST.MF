@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: helloworld-producer1
-Bundle-SymbolicName: helloworld-producer1
+Bundle-Name: service-listener
+Bundle-SymbolicName: service-listener
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: io.fractus.osgi.tutorial.helloworld.producer.Activator
+Bundle-Activator: io.fractus.osgi.tutorial.service.listener.Activator
 Eclipse-LazyStart: true
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Import-Package: org.osgi.framework;version="1.3.0" 
-Export-Package: io.fractus.osgi.tutorial.helloworld.producer
+Export-Package: io.fractus.osgi.tutorial.service.listener
