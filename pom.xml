@@ -13,6 +13,7 @@
         <module>helloworld-consumer</module> 
 		<module>service-listener</module>
 		<module>bundle-listener</module>
+		<module>helloworld-ds</module> 
 	</modules>
 
 </project>
