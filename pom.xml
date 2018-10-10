@@ -14,6 +14,9 @@
 		<module>service-listener</module>
 		<module>bundle-listener</module>
 		<module>helloworld-ds</module> 
+		<module>helloworld-ds-annotations</module> 
+
+				
 	</modules>
 
 </project>
