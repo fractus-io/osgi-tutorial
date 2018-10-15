@@ -1,3 +1,8 @@
+/**
+ * 
+ * Copyright (c) 2018 Fractus IT d.o.o. <http://fractus.io>
+ * 
+ */
 package io.fractus.osgi.tutorial.helloworld.producer;
 
 import org.osgi.framework.BundleActivator;
