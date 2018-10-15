@@ -1,0 +1,2 @@
+Private-Package: io.fractus.osgi.tutorial.helloworld.consumer
+Bundle-Activator: io.fractus.osgi.tutorial.helloworld.consumer.Activator

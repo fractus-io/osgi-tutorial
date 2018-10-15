@@ -1,0 +1,2 @@
+Private-Package: io.fractus.osgi.tutorial.helloworld.producer
+Bundle-Activator: io.fractus.osgi.tutorial.helloworld.producer.Activator
